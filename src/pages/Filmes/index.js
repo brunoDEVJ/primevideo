@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import api from '../../services/api'
 
+import { toast } from 'react-toastify'
+
 import './filme-info.css'
 
 
@@ -46,13 +48,13 @@ function Filmes() {
     const temFilme = filmesSalvar.some((filmeSalvo) => filmeSalvo.id === filme.id)
 
     if (temFilme) {
-      alert('esse filme ja eta na lista')
+      toast.warn('Esse filme já esta salvo')
       return
     }
 
     filmesSalvar.push(filme)
     localStorage.setItem('@primevideo', JSON.stringify(filmesSalvar))
-    alert('filme salvo')
+    toast.success('Filme Salvo com Sucesso')
   }
 
 
