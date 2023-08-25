@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/primevideo/static/css/main.b6aea90e.css",
-    "main.js": "/primevideo/static/js/main.8b29407c.js",
+    "main.css": "/primevideo/static/css/main.361d2c34.css",
+    "main.js": "/primevideo/static/js/main.813ae5b1.js",
     "index.html": "/primevideo/index.html",
-    "main.b6aea90e.css.map": "/primevideo/static/css/main.b6aea90e.css.map",
-    "main.8b29407c.js.map": "/primevideo/static/js/main.8b29407c.js.map"
+    "main.361d2c34.css.map": "/primevideo/static/css/main.361d2c34.css.map",
+    "main.813ae5b1.js.map": "/primevideo/static/js/main.813ae5b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6aea90e.css",
-    "static/js/main.8b29407c.js"
+    "static/css/main.361d2c34.css",
+    "static/js/main.813ae5b1.js"
   ]
 }
