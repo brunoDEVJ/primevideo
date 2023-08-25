@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/primevideo/static/css/main.b6aea90e.css",
+    "main.js": "/primevideo/static/js/main.8b29407c.js",
+    "index.html": "/primevideo/index.html",
+    "main.b6aea90e.css.map": "/primevideo/static/css/main.b6aea90e.css.map",
+    "main.8b29407c.js.map": "/primevideo/static/js/main.8b29407c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6aea90e.css",
+    "static/js/main.8b29407c.js"
+  ]
+}
